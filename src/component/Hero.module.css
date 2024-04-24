@@ -1,0 +1,50 @@
+.hero{
+    color: white ;
+    height: 90vh;
+    width: 98vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1{
+    font-size: 55px;
+}
+
+.hero div div{
+    margin-top: 34px;
+}
+
+.hero div div input{
+    border-radius: 55px;
+    width: 50vw;
+    padding: 6px 10px;
+    font-size: larger;
+    background-color: rgba(255, 255, 255, 0.212);
+    height: 45px;
+    border: 0px;
+    color: white;
+
+}
+
+.hero div div input::placeholder{
+    color: white;
+}
+
+.hero div ul{
+    display: flex;
+    list-style-type: none;
+    gap: 28px;
+    margin-top: 23px;
+    margin-left: 0;
+}
+
+.hero div ul li{
+    /* border: 2px solid white; */
+    background-color: white;
+    color: purple;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 55px;
+}

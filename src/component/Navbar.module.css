@@ -1,0 +1,32 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 12px;
+    padding-right: 12px;
+    border: 2px solid white;
+    height: 50px;
+    border-radius: 55px;
+    margin-left: 66px;
+    margin-right: 66px;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.547);
+    color: white;
+}
+.nav ul{
+    display: flex;
+    gap: 34px;
+    list-style-type: none;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.right button{
+    padding: 6px 13px;
+    background: linear-gradient(to right, #2B1173,#591AD8,#EF1ACC);
+    border-radius: 12px;
+    color: white;
+}
