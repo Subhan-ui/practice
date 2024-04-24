@@ -10,7 +10,7 @@ const Card = (props) => {
           src={props.src}
           alt={props.alt}
           width={250}
-          height={250}
+          height={190}
           className={classes.img}
         />
         <h5>{props.heading}</h5>

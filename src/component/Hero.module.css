@@ -19,13 +19,27 @@
 .hero div div input{
     border-radius: 55px;
     width: 50vw;
-    padding: 6px 10px;
+    
     font-size: larger;
     background-color: rgba(255, 255, 255, 0.212);
     height: 45px;
     border: 0px;
     color: white;
 
+}
+
+.search{
+    position: relative;
+}
+.search .icon{
+    position: absolute;
+    top: 11px;
+    left: 6px;
+}
+
+.search input{
+    padding: 6px 10px;
+    padding-left: 45px;
 }
 
 .hero div div input::placeholder{

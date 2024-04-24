@@ -17,5 +17,27 @@
     display: flex;
     gap: 40px;
     margin-left: 50px;
-    overflow-x: scroll;
+    overflow-x: auto;
+    scrollbar-width: thin; /* Specify the width of the scrollbar */
+    scrollbar-color: transparent transparent;
+
 }
+.cards::-webkit-scrollbar {
+  /* height: 5px;
+  width: 10px;
+  background: #120f1a;
+  -webkit-border-radius: 8ex; */
+  width: 8px;
+}
+
+.cards::-webkit-scrollbar-thumb {
+  /* background: rgb(255, 1, 255);
+  -webkit-border-radius: 8ex; */
+  background-color: transparent; /* Set thumb color */
+  border-radius: 4px; /* Round the thumb */
+  border: 2px dotted #aaa; 
+}
+/* 
+.cards::-webkit-scrollbar-corner {
+  background: #fff3;
+} */

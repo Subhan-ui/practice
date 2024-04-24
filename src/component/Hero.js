@@ -1,5 +1,6 @@
 import React from 'react'
 import classes from './Hero.module.css'
+import { CiSearch } from "react-icons/ci";
 
 const Hero = () => {
   return (
@@ -8,7 +9,8 @@ const Hero = () => {
         <p>The #1 Platform For Making High Quality AI covers In Seconds</p>
 
         <div>
-            <div><input type="text" placeholder='Search all voices'/></div>
+            <div className={classes.search}>
+            <CiSearch className={classes.icon} size={34}/><input type="text" placeholder='Search all voices'/></div>
             <ul>
                 <li>Music</li>
                 <li>Cartoon</li>
