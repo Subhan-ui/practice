@@ -1,14 +1,19 @@
 .card {
   color: white;
   /* border: 2px solid white; */
-  width: 250px;
-  width: 250px;
-  background-color: rgb(75, 75, 75);
+  width: 276px;
+  width: 309px;
+  background-color: #111314;
   border-radius: 18px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /* align-items: center; */
   justify-content: center;
+/* padding-right: 48px; */
+
+
+
+  
 }
 
 .img {
@@ -20,8 +25,16 @@
 .card h5 {
   font-size: large;
   margin: 0;
-  margin-top: 21px;
+  /* margin-top: 21px; */
+  font-family: Outfit;
+/* margin-right: 9px; */
+position: relative;
+    top: 21px;
+    left: 18px;
 }
 .card p {
   font-size: small;
+  position: relative;
+    top: 12px;
+    left: 18px;
 }

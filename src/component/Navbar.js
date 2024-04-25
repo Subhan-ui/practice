@@ -1,10 +1,11 @@
 import React from "react";
 import Image from "next/image";
 import classes from "./Navbar.module.css";
+import bg from '../../public/asset/some.svg'
 
 export const Navbar = () => {
   return (
-    <div className={classes.nav}>
+    <div className={classes.nav} >
       <Image
         src="/asset/logo.png"
         className={classes.logo}
